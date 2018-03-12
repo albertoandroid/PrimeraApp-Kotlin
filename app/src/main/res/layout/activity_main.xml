@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="com.androiddesdecero.primeraapp.MainActivity">
+
+    <TextView
+        android:id="@+id/mainActivityTvEdad"
+        android:background="@color/colorCyan"
+        android:textAllCaps="true"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_edad" />
+
+    <EditText
+        android:id="@+id/mainActivityEtEdad"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/intro_edad"/>
+
+    <Button
+        android:id="@+id/mainActivityBtEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"/>
+
+</LinearLayout>

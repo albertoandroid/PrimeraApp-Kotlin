@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PrimeraApp</string>
+
+    <!-- Main Activity -->
+    <string name="intro_edad">Introduce tu Edad</string>
+    <string name="enviar">Enviar</string>
+
+    <!-- Acceso Ok Activity -->
+    <string name="edad">Edad</string>
+
+    <!-- No Acceso Activity -->
+    <string name="no_tienes_edad">No tienes edad para utilizar esta App</string>
+    <string name="tienes_que_ser_mayor">Tines que ser mayor de 18</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRed"
+    tools:context="com.androiddesdecero.primeraapp.NoAccesoActivity">
+
+    <TextView
+        android:id="@+id/noAccesoActivityTvNoEdad"
+        android:text="@string/no_tienes_edad"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/tienes_que_ser_mayor"
+        android:layout_below="@+id/noAccesoActivityTvNoEdad"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
